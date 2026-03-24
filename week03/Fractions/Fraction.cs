@@ -20,6 +20,11 @@ class Fraction
         _top = top;
         _bottom = bottom;
     }
+
+    public Fraction(double frac)
+  {
+     return frac / bottom;
+  }
     public void Display()
     {
         Console.WriteLine($"{_top}/{_bottom}");
@@ -37,7 +42,7 @@ class Fraction
 
     public int GetBottom()
     {
-      return _top;
+      return _bottom;
     }
     
     public void SetBottom(int bottom)

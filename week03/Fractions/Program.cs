@@ -12,9 +12,11 @@ class Program
 
         // Two-parameter constructor
         Fraction function3 = new Fraction(2, 3);
+        Fraction function4 = new Fraction(2/3);
 
         function1.Display();
         function2.Display();
         function3.Display();
+        function4.Display();
     }
 }
