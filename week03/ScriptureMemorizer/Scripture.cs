@@ -23,6 +23,7 @@ public class Scripture
             int index = rand.Next(_words.Count);
             if (!_words[index].IsHidden())
             {
+                
                 _words[index].Hide();
             }
         }
