@@ -1,4 +1,4 @@
-public virtual class ChecklistGoal : Goal
+public class ChecklistGoal : Goal
 {
     private int _amountCompleted;
     private int _target;
@@ -39,4 +39,5 @@ public virtual class ChecklistGoal : Goal
     {
         return $"ChecklistGoal|{_name}|{_description}|{_points}|{_amountCompleted}|{_target}|{_bonus}";
     }
-}
+} 
+

@@ -56,6 +56,7 @@ TemporaryDependencyNodeTargetIdentifier=net10.0
 /warnaserror+:NU1605,SYSLIB0011
 
 [sourceFiles]
+ChecklistGoal.cs
 Employee.cs
 EternalGoal.cs
 Goal.cs
